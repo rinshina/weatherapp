@@ -1,0 +1,26 @@
+.weather-info-container{
+    padding: 20px;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    backdrop-filter: blur(8px) !important;
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.weather-info-content{
+    font-size: 18px;
+}
+.wrapping-degrees{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.hr-divider{
+    margin-block: 20px;
+}
+.icon-weather{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
